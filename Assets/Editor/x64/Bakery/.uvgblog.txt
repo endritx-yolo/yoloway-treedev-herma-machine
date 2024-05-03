@@ -1,0 +1,1478 @@
+2024-5-2
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX sky "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX sky "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX sky "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Total cache size 268901424
+Total cache size after purge 268430736
+Total cache size 286795532
+Total cache size after purge 267894316
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 64 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_4" 1924 0 4 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA43.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA33.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA44.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA34.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "4" "SampleScene_LMA4_final_L0.lz4" "SampleScene_LMA4_final_L1x.lz4" "SampleScene_LMA4_final_L1y.lz4" "SampleScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA4_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA4_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA4_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA4_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Total cache size 267894316
+Total cache size after purge 267894316
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 267894316
+Total cache size after purge 267894316
+Total cache size 274622840
+Total cache size after purge 268407480
+Total cache size 268407480
+Total cache size after purge 268407480
+Total cache size 268407480
+Total cache size after purge 268407480
+Total cache size 270919024
+Total cache size after purge 268239976
+Total cache size 268239976
+Total cache size after purge 268239976
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 268239976
+Total cache size after purge 268239976
+Total cache size 268239976
+Total cache size after purge 268239976
+Total cache size 268239976
+Total cache size after purge 268239976
+[             ] Require frontend run.  Library/Bee/Player731bf136.dag couldn't be loaded
+Finished compiling graph: 234 nodes, 472 flattened edges (472 ToBuild, 0 ToUse), maximum node priority 27
+[  1/232    0s] WriteResponseFile Library/Bee/artifacts/rsp/18016436371388434291.rsp
+[  2/232    0s] WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_i10u.info
+[  3/232    0s] WriteText Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/_dummy_for_header_discovery
+[  4/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vd58qxdb8gej0.lump.cpp
+[  5/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wkqko57heniq2.lump.cpp
+[  6/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/khk53ffgyhsk2.lump.cpp
+[  7/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wkqko57heniq3.lump.cpp
+[  8/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wkqko57heniq1.lump.cpp
+[  9/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/khk53ffgyhsk3.lump.cpp
+[ 10/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wkqko57heniq4.lump.cpp
+[ 11/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wkqko57heniq0.lump.cpp
+[ 12/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/naa16ir5a8r91.lump.cpp
+[ 13/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ik1m41ne4vwx0.lump.cpp
+[ 14/232    0s] WriteText Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/_dummy_for_header_discovery
+[ 15/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vd58qxdb8gej1.lump.cpp
+[ 16/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/naa16ir5a8r90.lump.cpp
+[ 17/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/5ben9b0spdr22.lump.cpp
+[ 18/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/khk53ffgyhsk1.lump.cpp
+[ 19/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/7gi6z5khq7um0.lump.cpp
+[ 20/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xey5uh43rfg90.lump.cpp
+[ 21/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/6hcswaet4rev0.lump.cpp
+[ 22/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l0.lump.cpp
+[ 23/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l2.lump.cpp
+[ 24/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l3.lump.cpp
+[ 25/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l4.lump.cpp
+[ 26/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l1.lump.cpp
+[ 27/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l6.lump.cpp
+[ 28/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6i03mamzv7l5.lump.cpp
+[ 29/232    0s] WriteText Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/_dummy_for_header_discovery
+[ 30/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/o5de773fnzuy0.lump.cpp
+[ 31/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3jr1av24phxo0.lump.cpp
+[ 32/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ymte6hl2ksaw0.lump.cpp
+[ 33/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wdwv56ix85mz0.lump.cpp
+[ 34/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/5ben9b0spdr21.lump.cpp
+[ 35/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jhl20gf0fgbi0.lump.cpp
+[ 36/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jhl20gf0fgbi1.lump.cpp
+[ 37/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f6g2i9vx9b8e0.lump.cpp
+[ 38/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jhl20gf0fgbi2.lump.cpp
+[ 39/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hzs7mjqidvtb0.lump.cpp
+[ 40/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/skn26m3f8wi00.lump.cpp
+[ 41/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9fcple6omwz30.lump.cpp
+[ 42/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xvaz40fsmu960.lump.cpp
+[ 43/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/46cxu5cac7qs0.lump.cpp
+[ 44/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/249647cxh1di0.lump.cpp
+[ 45/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9jkbemup0ocu0.lump.cpp
+[ 46/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xhqrlvwnki2c0.lump.cpp
+[ 47/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/249647cxh1di1.lump.cpp
+[ 48/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/249647cxh1di3.lump.cpp
+[ 49/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/249647cxh1di2.lump.cpp
+[ 50/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3txmvt00s2bs0.lump.cpp
+[ 51/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/5ben9b0spdr20.lump.cpp
+[ 52/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/naa16ir5a8r92.lump.cpp
+[ 53/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/63fxh5pi22cp0.lump.cpp
+[ 54/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/en2150uyng4n0.lump.cpp
+[ 55/232    0s] WriteText Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/_dummy_for_header_discovery
+[ 56/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/0ol95kbarfo20.lump.cpp
+[ 57/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/14nq4g51bx2o0.lump.cpp
+[ 58/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/khk53ffgyhsk0.lump.cpp
+[ 59/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/14nq4g51bx2o1.lump.cpp
+[ 60/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wrffnv7s8cyt2.lump.cpp
+[ 61/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wrffnv7s8cyt1.lump.cpp
+[ 62/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/luuvsfaionsw0.lump.cpp
+[ 63/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wrffnv7s8cyt0.lump.cpp
+[ 64/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/4j6d2x4s51bt0.lump.cpp
+[ 65/232    0s] MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/4j6d2x4s51bt1.lump.cpp
+[ 66/232    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/4ichr2gacmke.o
+[BUSY      11s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wsd7gg94004r.o
+[ 67/232   15s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wsd7gg94004r.o
+[ 68/232   15s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ouc3z7oba98u.o
+[ 69/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/556v3z3pgogs.o
+[ 70/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/yw2guscsgblc.o
+[ 71/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ieys3e1wmlnw.o
+[ 72/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/b8rw6f0x8jdh.o
+[ 73/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zbopio78wglm.o
+[ 74/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/8ohe571tc4wm.o
+[ 75/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jbsfxx4b46n4.o
+[ 76/232   14s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mu2xy52f0m4y.o
+[ 77/232   10s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ejvy4t8xre9v.o
+[ 78/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/dfo2kl3pgm3r.o
+[ 79/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/glkceecr29yw.o
+[ 80/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pdeclsf54wz0.o
+[ 81/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/qxm7sjrejlpc.o
+[ 82/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hv7iepb43m24.o
+[ 83/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/8ciutdr051ig.o
+[ 84/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/nf6n7eh2eprg.o
+[ 85/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/68junj8gtclk.o
+[ 86/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/cio7apmqo82w.o
+[ 87/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vm87xgrzchga.o
+[ 88/232    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kei1fx97z2iz.o
+[ 89/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hzz1ibrtk2ks.o
+[ 90/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zs3ck1st2ev5.o
+[ 91/232    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3p9bmbadxw4p.o
+[ 92/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ynhiu1p36dyv.o
+[ 93/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/dy1jcfuk94sk.o
+[ 94/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rm3pcfq8oh5q.o
+[ 95/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/nhz3x2e7t8n6.o
+[ 96/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ghc2dnso5k9e.o
+[ 97/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vl6b49r20iud.o
+[ 98/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/tgxpurpif156.o
+[ 99/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/up0rvsri4wuj.o
+[100/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hkpdcbdysm3c.o
+[101/232    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/or7x6uercesl.o
+[102/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2f463oh25sjy.o
+[103/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1h8hnnx5go9k.o
+[104/232    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/6bb9uuhcanic.o
+[105/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1f0inoyd5aa6.o
+[106/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/cso005pncvrx.o
+[107/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/v3ulvht9clvx.o
+[108/232    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/s6c22ggl3wkx.o
+[109/232    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8x25wctvshm.o
+[110/232    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vpnk4oepzc1r.o
+[111/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3icjd6gwbnxf.o
+[112/232    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/k3zvdjb2o2j7.o
+[113/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/do5cu9fyl6mv.o
+[114/232    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1pp39s11jf9m.o
+[115/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/08rq13rxuld4.o
+[116/232    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pn2j18hh7g42.o
+[117/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/mu3tjkh18gj6.o
+[118/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/nlhnjizz4a9a.o
+[119/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1qfubw0qb16p.o
+[120/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/i487gay87gof.o
+[121/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y74bao2mflqv.o
+[122/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q4r5kqx30qp5.o
+[123/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/k264ha1v8usg.o
+[124/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/pgbo11o6sul1.o
+[125/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/rgrih67b5oxd.o
+[126/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/jcfjn66ije2u.o
+[127/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/gre134zc2x9p.o
+[128/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9q2vfy0b9016.o
+[129/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/fbo611d4736m.o
+[130/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/g9lo3xo0wdkd.o
+[131/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/gmurainn95ur.o
+[132/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/8qk0d40ymz9k.o
+[133/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/pu6z9vr2yzvz.o
+[134/232    0s] WriteResponseFile Library/Bee/artifacts/rsp/6070537824006410562.rsp
+[135/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/2ko5yo72wro5.o
+[136/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/cyn07i6kf3kw.o
+[137/232    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/7ra4c9x9bb6b.o
+[138/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/2fvqjga97a5v.o
+[139/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/xn6y0eo3rvb0.o
+[140/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/d3t4tnw43gki.o
+[141/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1vcfovy0qf8t.o
+[142/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/48zlb1z5fvph.o
+[143/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/iujidzv87flm.o
+[144/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/qz2598518inf.o
+[145/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/60jni6zxbov2.o
+[146/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/635nw88nzr8c.o
+[147/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/a6dbcottrhaq.o
+[148/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/of2nmfixykuc.o
+[149/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/0boasrn8t8er.o
+[150/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9b6do2t6aamr.o
+[151/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ts5i84g2bq8p.o
+[152/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/w0a6kmahhrla.o
+[153/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kkrx08eksgte.o
+[154/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ucc41bossmvy.o
+[155/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f5nhrrktktc3.o
+[156/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2vni8w40hh38.o
+[157/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pc4uwyy5km39.o
+[158/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2sllfglnkwbu.o
+[159/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2uv4nx7y9k0h.o
+[160/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/62sz3em277mf.o
+[161/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zu62ljygoig0.o
+[162/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kh0ppnrottaz.o
+[163/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/zmq8cfuv2n9g.o
+[164/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/4kwz41mpv4va.o
+[165/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3xg6ppycz65r.o
+[166/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rg3yso8suv9e.o
+[167/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/nssrl0pbsg2c.o
+[168/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xiin2vo2m3yy.o
+[169/232    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/49simprevp06.o
+[170/232    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q1zamlt3z6xm.o
+[171/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/owjvhz6pq7pt.o
+[172/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/0u9eyonhzmlw.o
+[173/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ja5uyrmlm2bm.o
+[174/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pwwhzh66uz1w.o
+[175/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/yplxldyx7lug.o
+[176/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/yh6d93wbdrqy.o
+[177/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vmzjxu30k9kp.o
+[178/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/47cd1didhd8d.o
+[179/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/j8jed3sql90f.o
+[180/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2wrvmqzefd58.o
+[181/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ao4w42u4y5kp.o
+[182/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pk4fyzu9z3vf.o
+[183/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3ggr1xxq2yt3.o
+[184/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wibde98n80v4.o
+[185/232    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1eh8kqsz242z.o
+[186/232    0s] WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp
+[187/232    0s] WriteText Library/Bee/artifacts/csharpactions/boot.config_7kyv.info
+[188/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/42mctedt30gu.o
+[189/232    0s] WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info
+[190/232    0s] WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info
+[191/232    0s] CopyFiles Build/TemplateData/unity-logo-light.png
+[192/232    0s] CopyFiles Build/TemplateData/unity-logo-dark.png
+[193/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/jrly7z19aitv.o
+[194/232    0s] CopyFiles Build/TemplateData/progress-bar-full-light.png
+[195/232    0s] CopyFiles Build/TemplateData/progress-bar-full-dark.png
+[196/232    0s] CopyFiles Build/TemplateData/progress-bar-empty-light.png
+[197/232    0s] CopyFiles Build/TemplateData/progress-bar-empty-dark.png
+[198/232    0s] CopyFiles Build/TemplateData/MemoryProfiler.png
+[199/232    0s] CopyFiles Build/TemplateData/fullscreen-button.png
+[200/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/cen8vbfq885m.o
+[201/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ws456w35dke3.o
+[202/232    0s] CopyFiles Build/TemplateData/favicon.ico
+[203/232    0s] CopyFiles Build/TemplateData/webmemd-icon.png
+[204/232    0s] CopyFiles Build/TemplateData/webgl-logo.png
+[205/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ftpjsyrdvrv1.o
+[206/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/f22wtcegk1fn.o
+[207/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/p415bpfsat9t.o
+[208/232    0s] PreprocessJS Build/TemplateData/style.css
+[209/232    0s] PreprocessJS Build/index.html
+[210/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/l2x9d4b1rj1x.o
+[211/232    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/47pfo4mogq99.o
+[212/232    0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[213/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/us15yinhropd.o
+[214/232    0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[215/232    2s] PreprocessJS Build/Build/Build.loader.js
+[216/232    7s] UnityLinker D:/Unity Repos/HermaRender/Library/Bee/artifacts/unitylinker_ber2.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\18016436371388434291.rsp
+[BUSY       7s] Brotli Build/Build/Build.data.br
+[BUSY      17s] Brotli Build/Build/Build.data.br
+[BUSY      27s] Brotli Build/Build/Build.data.br
+[217/232   36s] Brotli Build/Build/Build.data.br
+*** Tundra requires additional run (80.57 seconds - 0:01:20), 217 items updated, 232 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/WebGL/ManagedStripped
+Finished compiling graph: 234 nodes, 472 flattened edges (472 ToBuild, 0 ToUse), maximum node priority 27
+[218/232    0s] CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json
+[219/232    2s] IL2CPP_CodeGen D:/Unity Repos/HermaRender/Library/Bee/artifacts/il2cpp_conv_6ay4.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Postprocessing.Runtime.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/cpp --symbols-folder=D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/Unity Repos/HermaRender/Library/Bee/artifacts/il2cpp_conv_6ay4.traceevents --print-command-line --data-folder=D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/data
+[220/232    3s] ClassRegistrationGenerator D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp
+[221/232    5s] ICallRegistrationGenerator D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp
+[222/232    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i10uwfshpqsf.o
+[223/232    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l4shiw6ftx8p.o
+*** Tundra requires additional run (6.14 seconds), 6 items updated, 232 evaluated
+*** Additional run caused by: contents change of D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/cpp
+Finished compiling graph: 337 nodes, 785 flattened edges (781 ToBuild, 3 ToUse), maximum node priority 131
+[189/335    0s] WriteResponseFile Library/Bee/artifacts/rsp/6070537824006410562.rsp
+[216/335    0s] WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info
+[222/335    0s] CopyFiles D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat
+[223/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/31b1xu0dyctb.o
+[224/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/56g7oow46ump.o
+[225/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ey8el0mnbw2f.o
+[226/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aiuot7jreghg.o
+[227/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/02vtc7bx7yym.o
+[228/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pggtoy2t4dui.o
+[229/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h37gqhuiftn0.o
+[230/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jpsgt07r543g.o
+[231/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qir7tt27nwn5.o
+[232/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/csm9jwlhxcmm.o
+[233/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2szjy8zf86vf.o
+[234/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sosw06gnk9tq.o
+[235/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yw0wbs7b9sb0.o
+[236/335    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uzniz0pfw7ra.o
+[237/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/epx022ap9938.o
+[238/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fn4vexeip7go.o
+[239/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/prookktfg872.o
+[240/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/12rz4yzkr3lb.o
+[241/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wufh0i28pmcl.o
+[242/335    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9l39e0y59dvk.o
+[243/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/90ylyuy6t2lt.o
+[244/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3tuk9aprig83.o
+[245/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/810uj8c1cgm5.o
+[246/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nyf5eb492n2l.o
+[247/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6dzvj61nb3a7.o
+[248/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/haj5fsg6sao4.o
+[249/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/moep4ozame7c.o
+[250/335    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/efkyfkjymbrn.o
+[251/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s1m0jvwjit35.o
+[252/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/odayvqpz2osm.o
+[253/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uw75evjh9jqe.o
+[254/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a7rc0t7cjwjm.o
+[255/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/stj1ye493kvk.o
+[256/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tbd18hxjcwhw.o
+[257/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8w8kc01dc6vt.o
+[258/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1as0em9dwx9m.o
+[259/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f06ducoj6w86.o
+[260/335    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fgc0bua6wlbp.o
+[261/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2wh4ormmjgbu.o
+[262/335    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8otjq9gul514.o
+[263/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kz1fi7wnydno.o
+[264/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l37eexxjkxrp.o
+[265/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kfgw14n9gzzw.o
+[266/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a88s9s9f9kal.o
+[267/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4yzyvaiz104f.o
+[268/335    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dhqoz4ahlhfp.o
+[269/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7drk6srpc31i.o
+[270/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b3tlk70pyb5e.o
+[271/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rbfvbzo2k62n.o
+[272/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/au5oose3rnxj.o
+[273/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z1v9p35zrasw.o
+[274/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8rsrar1um8ma.o
+[275/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5wxsvoehuqtz.o
+[276/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u08bwkw8txz5.o
+[277/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u8klhqo9eoph.o
+[278/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/909mxdum006a.o
+[279/335    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z4dtzt5cs77n.o
+[280/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oloe2dob3pmz.o
+[281/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ruyvb0nntz77.o
+[282/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qblulzrkvfyw.o
+[283/335    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ls1xzi08yx0m.o
+[284/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nadfun2tgbp.o
+[285/335    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7ljc4limf5rm.o
+[286/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dc5al99xc2ty.o
+[287/335    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8djtuki75be5.o
+[288/335    4s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d2hhpv6gg36f.o
+[289/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ii3l07w4wc5j.o
+[290/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fh3gkvfgjyoc.o
+[291/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yu7xk1cc8u4l.o
+[292/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nb42p9jnanox.o
+[293/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ljf8axcv21fy.o
+[294/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/epa5jkrfpjw4.o
+[295/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o411ljcjfjjq.o
+[296/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t2eq5mz7pvfg.o
+[297/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r3rvbbqmpkmx.o
+[298/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3x69fhb2z0g3.o
+[299/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ixzr0jsruan8.o
+[300/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dhh9tw03qr2n.o
+[301/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8ax22910g00x.o
+[302/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jo8skh663gnd.o
+[303/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t83wtpzes9q6.o
+[304/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8ak1kyaomty8.o
+[305/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/72cmiul2cyji.o
+[306/335    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/whcuxl14zzj7.o
+[307/335   11s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e994wq7xv79d.o
+[308/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/acq2k9hfwfqf.o
+[309/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q1raqazdeakd.o
+[310/335    3s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0se40vglpyxl.o
+[311/335    0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g8tks77u9zqq.o
+[312/335    2s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f6jyylsyo1kv.o
+[313/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ge468pth21fd.o
+[314/335    0s] CopyFiles D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat
+[315/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lyv73wnq8ezn.o
+[316/335    0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+[317/335    1s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b40hv37n24oq.o
+[318/335    0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[319/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rswixs141or9.o
+[320/335    8s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bfctk9nbny01.o
+[321/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d1wyv7weg0bt.o
+[322/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ddvzk06gboxw.o
+[323/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2ichz1pc0zq2.o
+[324/335    5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gvoczcvgt9x3.o
+[325/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oj47z4chc6qn.o
+[326/335    6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u707yn0kmj54.o
+[327/335    7s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0cy9j9lbw9o3.o
+[328/335    1s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[329/335    0s] CopyFiles D:/Unity Repos/HermaRender/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a
+[BUSY      13s] Brotli Build/Build/Build.data.br
+[BUSY      11s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      24s] Brotli Build/Build/Build.data.br
+[BUSY      22s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      35s] Brotli Build/Build/Build.data.br
+[BUSY      33s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      46s] Brotli Build/Build/Build.data.br
+[BUSY      44s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      57s] Brotli Build/Build/Build.data.br
+[330/335   60s] Brotli Build/Build/Build.data.br
+[BUSY      58s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[331/335   66s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[332/335    0s] FrameworkAssembler Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js
+[333/335    0s] Brotli Build/Build/Build.framework.js.br
+[BUSY       7s] Brotli Build/Build/Build.wasm.br
+[BUSY      17s] Brotli Build/Build/Build.wasm.br
+[BUSY      27s] Brotli Build/Build/Build.wasm.br
+[BUSY      37s] Brotli Build/Build/Build.wasm.br
+[334/335   40s] Brotli Build/Build/Build.wasm.br
+*** Tundra build success (142.38 seconds - 0:02:22), 115 items updated, 335 evaluated
+Total cache size 268239976
+Total cache size after purge 268239976
+Total cache size 268239976
+Total cache size after purge 268239976
+Total cache size 268239976
+Total cache size after purge 268239976
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player731bf136-inputdata.json
+*** Tundra requires additional run (0.02 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 337 nodes, 785 flattened edges (781 ToBuild, 3 ToUse), maximum node priority 131
+[           0s] Delete 5 artifact files that are no longer in use. (like Build\Build\Build.framework.js.br)
+[327/335    0s] CopyFiles Build/Build/Build.framework.js
+[328/335    0s] CopyFiles Build/Build/Build.wasm
+[329/335    0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[330/335    0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[331/335    0s] CopyFiles Build/Build/Build.data
+[332/335    0s] PreprocessJS Build/index.html
+[333/335    0s] PreprocessJS Build/TemplateData/style.css
+[334/335    0s] PreprocessJS Build/Build/Build.loader.js
+*** Tundra build success (0.97 seconds), 8 items updated, 335 evaluated
+Total cache size 268239976
+Total cache size after purge 268239976
+Total cache size 277255200
+Total cache size after purge 268182340
+abort_threads: Failed aborting id: 0000000000007D18, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005088, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007D18, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005088, mono_thread_manage will ignore it
+
+2024-5-3
+Rendering UV GBuffer for HighQualityWithPPBlack 1_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlack 1_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlack 1_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlack 1_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlack 1_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlack 1_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlack 1_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlack 1_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_ao" 8 16 2
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlack 1_LMA30.bin" "HighQualityWithPPBlack 1_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlack 1_LM00.bin" "HighQualityWithPPBlack 1_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlack 1_LMA10.bin" "HighQualityWithPPBlack 1_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlack 1_LMA20.bin" "HighQualityWithPPBlack 1_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlack 1_LMA31.bin" "HighQualityWithPPBlack 1_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlack 1_LM01.bin" "HighQualityWithPPBlack 1_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlack 1_LMA11.bin" "HighQualityWithPPBlack 1_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlack 1_LMA21.bin" "HighQualityWithPPBlack 1_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlack 1_LMA32.bin" "HighQualityWithPPBlack 1_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlack 1_LM02.bin" "HighQualityWithPPBlack 1_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlack 1_LMA12.bin" "HighQualityWithPPBlack 1_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlack 1_LMA22.bin" "HighQualityWithPPBlack 1_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlack 1_LMA33.bin" "HighQualityWithPPBlack 1_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlack 1_LM03.bin" "HighQualityWithPPBlack 1_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlack 1_LMA13.bin" "HighQualityWithPPBlack 1_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlack 1_LMA23.bin" "HighQualityWithPPBlack 1_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_final" 1924 16 3 "gi_HighQualityWithPPBlack 1_LMA34.bin" "HighQualityWithPPBlack 1_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_final" 1924 16 0 "gi_HighQualityWithPPBlack 1_LM04.bin" "HighQualityWithPPBlack 1_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_final" 1924 16 1 "gi_HighQualityWithPPBlack 1_LMA14.bin" "HighQualityWithPPBlack 1_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_final" 1924 16 2 "gi_HighQualityWithPPBlack 1_LMA24.bin" "HighQualityWithPPBlack 1_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "3" "HighQualityWithPPBlack 1_LMA3_final_L0.lz4" "HighQualityWithPPBlack 1_LMA3_final_L1x.lz4" "HighQualityWithPPBlack 1_LMA3_final_L1y.lz4" "HighQualityWithPPBlack 1_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "HighQualityWithPPBlack 1_LM0_final_L0.lz4" "HighQualityWithPPBlack 1_LM0_final_L1x.lz4" "HighQualityWithPPBlack 1_LM0_final_L1y.lz4" "HighQualityWithPPBlack 1_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "HighQualityWithPPBlack 1_LMA1_final_L0.lz4" "HighQualityWithPPBlack 1_LMA1_final_L1x.lz4" "HighQualityWithPPBlack 1_LMA1_final_L1y.lz4" "HighQualityWithPPBlack 1_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlack 1_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "HighQualityWithPPBlack 1_LMA2_final_L0.lz4" "HighQualityWithPPBlack 1_LMA2_final_L1x.lz4" "HighQualityWithPPBlack 1_LMA2_final_L1y.lz4" "HighQualityWithPPBlack 1_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA3_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlack 1_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlack 1_LMA2_L1z.tga" 
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+*** Tundra build success (0.07 seconds), 0 items updated, 480 evaluated
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+[477/480    0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[478/480    0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[479/480    0s] CopyFiles Build/OnlyHerma/Build/OnlyHerma.data
+*** Tundra build success (0.25 seconds), 3 items updated, 480 evaluated
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+[202/480    0s] CopyFiles Build/OnlyHerma/TemplateData/unity-logo-light.png
+[203/480    0s] CopyFiles Build/OnlyHerma/TemplateData/progress-bar-empty-light.png
+[204/480    0s] CopyFiles Build/OnlyHerma/TemplateData/progress-bar-full-dark.png
+[205/480    0s] CopyFiles Build/OnlyHerma/TemplateData/MemoryProfiler.png
+[206/480    0s] CopyFiles Build/OnlyHerma/TemplateData/progress-bar-full-light.png
+[207/480    0s] CopyFiles Build/OnlyHerma/TemplateData/unity-logo-dark.png
+[208/480    0s] CopyFiles Build/OnlyHerma/TemplateData/fullscreen-button.png
+[214/480    0s] CopyFiles Build/OnlyHerma/TemplateData/progress-bar-empty-dark.png
+[215/480    0s] CopyFiles Build/OnlyHerma/TemplateData/favicon.ico
+[216/480    0s] CopyFiles Build/OnlyHerma/TemplateData/webmemd-icon.png
+[217/480    0s] CopyFiles Build/OnlyHerma/TemplateData/webgl-logo.png
+[474/480    0s] CopyFiles Build/OnlyHerma/Build/OnlyHerma.framework.js
+[475/480    0s] CopyFiles Build/OnlyHerma/Build/OnlyHerma.data
+[476/480    0s] CopyFiles Build/OnlyHerma/Build/OnlyHerma.wasm
+[477/480    0s] PreprocessJS Build/OnlyHerma/index.html
+[478/480    0s] PreprocessJS Build/OnlyHerma/TemplateData/style.css
+[479/480    0s] PreprocessJS Build/OnlyHerma/Build/OnlyHerma.loader.js
+*** Tundra build success (0.86 seconds), 17 items updated, 480 evaluated
+Total cache size 267647064
+Total cache size after purge 267647064
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_ao" 8 16 2
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA30.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM00.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA10.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA20.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA31.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM01.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA11.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA21.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA32.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM02.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA12.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA22.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA33.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM03.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA13.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA23.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final" 1924 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA34.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final" 1924 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM04.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final" 1924 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA14.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final" 1924 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA24.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "3" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLighting_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLighting_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_ao" 8 16 2
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA30.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM00.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA10.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA20.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA31.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM01.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA11.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA21.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA32.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM02.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA12.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA22.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA33.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM03.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA13.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA23.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final" 1924 16 3 "gi_HighQualityWithPPBlackv2BakedLighting_LMA34.bin" "HighQualityWithPPBlackv2BakedLighting_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final" 1924 16 0 "gi_HighQualityWithPPBlackv2BakedLighting_LM04.bin" "HighQualityWithPPBlackv2BakedLighting_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final" 1924 16 1 "gi_HighQualityWithPPBlackv2BakedLighting_LMA14.bin" "HighQualityWithPPBlackv2BakedLighting_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final" 1924 16 2 "gi_HighQualityWithPPBlackv2BakedLighting_LMA24.bin" "HighQualityWithPPBlackv2BakedLighting_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "3" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA3_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLighting_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLighting_LMA2_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLightingDefailt_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLightingDefailt_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLightingDefailt_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for HighQualityWithPPBlackv2BakedLightingDefailt_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLightingDefailt_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLightingDefailt_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLightingDefailt_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "uvpos_HighQualityWithPPBlackv2BakedLightingDefailt_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_ao" 8 16 2
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA30.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LM00.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA10.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA20.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA31.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LM01.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA11.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA21.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA32.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LM02.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA12.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA22.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse" 4 16 3 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA33.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse" 4 16 0 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LM03.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse" 4 16 1 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA13.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse" 4 16 2 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA23.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final" 1924 16 3 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA34.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final" 1924 16 0 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LM04.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final" 1924 16 1 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA14.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final" 1924 16 2 "gi_HighQualityWithPPBlackv2BakedLightingDefailt_LMA24.bin" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "3" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L0.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "0" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L0.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "1" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L0.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L0.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1x.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1y.lz4" "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\YOLOWA~1\AppData\Local\Temp\frender" "2" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L0.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1x.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1y.lz4" "HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L0.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1x.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1y.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\YOLOWA~1\AppData\Local\Temp\frender/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_final_L1z.lz4" "D:/Unity Repos/HermaRender/Assets/BakeryLightmaps/HighQualityWithPPBlackv2BakedLightingDefailt_LMA2_L1z.tga" 
+Total cache size 267647064
+Total cache size after purge 267647064
+Total cache size 267647064
+Total cache size after purge 267647064
+[             ] Require frontend run.  Library/Bee/Player1fa17cdc.dag couldn't be loaded
+Finished compiling graph: 482 nodes, 1220 flattened edges (1216 ToBuild, 3 ToUse), maximum node priority 276
+[199/480    0s] WriteText Library/Bee/artifacts/csharpactions/boot.config_7kyv.info
+[201/480    0s] CopyFiles Build/DynamicBatching/TemplateData/unity-logo-dark.png
+[202/480    0s] CopyFiles Build/DynamicBatching/TemplateData/MemoryProfiler.png
+[203/480    0s] CopyFiles Build/DynamicBatching/TemplateData/progress-bar-empty-light.png
+[204/480    0s] CopyFiles Build/DynamicBatching/TemplateData/progress-bar-empty-dark.png
+[205/480    0s] CopyFiles Build/DynamicBatching/TemplateData/fullscreen-button.png
+[206/480    0s] CopyFiles Build/DynamicBatching/TemplateData/progress-bar-full-light.png
+[207/480    0s] CopyFiles Build/DynamicBatching/TemplateData/progress-bar-full-dark.png
+[208/480    0s] CopyFiles Build/DynamicBatching/TemplateData/unity-logo-light.png
+[212/480    0s] CopyFiles Build/DynamicBatching/TemplateData/favicon.ico
+[215/480    0s] CopyFiles Build/DynamicBatching/TemplateData/webgl-logo.png
+[216/480    0s] CopyFiles Build/DynamicBatching/TemplateData/webmemd-icon.png
+[472/480    0s] CopyFiles Build/DynamicBatching/Build/DynamicBatching.framework.js
+[473/480    0s] CopyFiles Build/DynamicBatching/Build/DynamicBatching.wasm
+[474/480    0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[475/480    0s] PreprocessJS Build/DynamicBatching/index.html
+[476/480    0s] PreprocessJS Build/DynamicBatching/TemplateData/style.css
+[477/480    0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[478/480    0s] CopyFiles Build/DynamicBatching/Build/DynamicBatching.data
+[479/480    0s] PreprocessJS Build/DynamicBatching/Build/DynamicBatching.loader.js
+*** Tundra build success (0.79 seconds), 20 items updated, 480 evaluated
+Total cache size 267647064
+Total cache size after purge 267647064

@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: c1217e5e7714ff2479cc47e882524e1c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #27
+    second: {fileID: 2100000, guid: ba7704cc1c1d42d41bfae585608cebc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28
+    second: {fileID: 2100000, guid: 6a11fa9299cb3c9429b252a1d3230fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #29
+    second: {fileID: 2100000, guid: 62743edce50125a409efee67c0edf512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #32
+    second: {fileID: 2100000, guid: 1872579ad3d6de640953fa0dd826c777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #33
+    second: {fileID: 2100000, guid: 177b1fab0c9b3d842aaa34d702d93de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #34
+    second: {fileID: 2100000, guid: e1bed8fa1f5e86041ab543af817b8d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #35
+    second: {fileID: 2100000, guid: a274c679814621040934fa69fb9041a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #38
+    second: {fileID: 2100000, guid: 45edb4bd76965bd46aefece362dbf3e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #42
+    second: {fileID: 2100000, guid: a727fa343fadaa440a7f4f24018c1e56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #43
+    second: {fileID: 2100000, guid: 1cdc128294e60f6489d61eff74bbc6bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #46
+    second: {fileID: 2100000, guid: fab08d6f4469db240aff1c8ef2147e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #51
+    second: {fileID: 2100000, guid: fc618f0593f318d4287b00ecd2d1db32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #52
+    second: {fileID: 2100000, guid: f4239b4065ac479459c7ee04e3bcc515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #53
+    second: {fileID: 2100000, guid: 705abeb350438f3478194d2b8bbb110d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #54
+    second: {fileID: 2100000, guid: f7615908b2332b349af89c74ed75828b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #55
+    second: {fileID: 2100000, guid: 8cbdeb78a244564438509c12bf583c51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #63
+    second: {fileID: 2100000, guid: 5c19fdcb7583d2949998aa56f1b6e7bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #64
+    second: {fileID: 2100000, guid: fbca86b251e990940adf11586d3df1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #65
+    second: {fileID: 2100000, guid: 6f661686e7fbf024591f221cf29b158c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #68
+    second: {fileID: 2100000, guid: 40a98b5cff5a727458b7d8bb6b2b5411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #69
+    second: {fileID: 2100000, guid: 5c1b4456f92f3fc4aafe8772b220f2a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #70
+    second: {fileID: 2100000, guid: 737d7b389dddd384e8a758f1976fbfa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #71
+    second: {fileID: 2100000, guid: e46fef8e150dd6e44a8eaefbaef08c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #74
+    second: {fileID: 2100000, guid: 28ae5461a09c93146953953f8563b314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #78
+    second: {fileID: 2100000, guid: 1cc168d0218246345901aa854d332258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #79
+    second: {fileID: 2100000, guid: 3dbcd219ddc4a5d4b9a1dd88a3b6d37c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #82
+    second: {fileID: 2100000, guid: 72dd547395be7884989dcdd5c38bc007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #85
+    second: {fileID: 2100000, guid: b5e383a5743fb024a8adfdcaba630566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #86
+    second: {fileID: 2100000, guid: 6b47b49f28272f44e8549edd873804a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #87
+    second: {fileID: 2100000, guid: fc9bc39f63e4b7b4eaa2ffb64e926d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #88
+    second: {fileID: 2100000, guid: 29cf4ba36be25db4bbd94d26bbc80de9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #89
+    second: {fileID: 2100000, guid: 879ab86f3dbd2a04c9521004e3280cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #90
+    second: {fileID: 2100000, guid: 8b9162a9cb7aa1c439ebff0e50617104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #91
+    second: {fileID: 2100000, guid: 861c2365d92db724c8078d4e8cd90d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #94
+    second: {fileID: 2100000, guid: 593825f927f72c244b21d0d51ea29f80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #95
+    second: {fileID: 2100000, guid: 16d979dd95dfaa44f9f1d868fa43ba39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #96
+    second: {fileID: 2100000, guid: d657fa2ec95ea6940b635662d3851d90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #97
+    second: {fileID: 2100000, guid: 83ea1381ec11cfc4a92eb295feb5cc99, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - "#BAKERY{\"meshName\":[\"M8 Gewindebohrung1\",\"M6 Gewindebohrung7\",\"Stirnsenkung
+      f\xFCr M8 Zylinderschraube mit Innensechskant1\",\"UUSCB6_20b-1-solid1\",\"Hex\",\"Verrundung3\",\"Durchgangsloch
+      f\xFCr M41\",\"\xD86.0 (6) Durchmesser Bohrung1\",\"M6 Gewindebohrung1\",\"Fase1\",\"CYL_0\",\"70071045~0-1/70045921-Export_Standard~0-1-solid1\",\"70070626~0-1/70070626-Export_Standard~0-3-solid15\",\"70070626~0-1/70070626-Export_Standard~0-3-solid14\",\"70070626~0-1/70070626-Export_Standard~0-3-solid13\",\"70070626~0-1/70070626-Export_Standard~0-3-solid12\",\"70070626~0-1/70070626-Export_Standard~0-3-solid11\",\"70070626~0-1/70070626-Export_Standard~0-3-solid10\",\"70070626~0-1/70070626-Export_Standard~0-3-solid9\",\"70070626~0-1/70070626-Export_Standard~0-3-solid8\",\"70070626~0-1/70070626-Export_Standard~0-3-solid7\",\"70070626~0-1/70070626-Export_Standard~0-3-solid6\",\"70070626~0-1/70070626-Export_Standard~0-3-solid5\",\"70070626~0-1/70070626-Export_Standard~0-3-solid4\",\"70070626~0-1/70070626-Export_Standard~0-3-solid3\",\"70070626~0-1/70070626-Export_Standard~0-3-solid2\",\"70070626~0-1/70070626-Export_Standard~0-3-solid1\",\"70070616~0-2/70070616-Export_Standard~0-2-solid2\",\"70070616~0-2/70070616-Export_Standard~0-2-solid1\",\"70059552~0-1/70060839~3-1-solid1\",\"70059552~0-1/70060760~2-1-solid1\",\"70059552~0-1/70060132~2-1-solid1\",\"70059552~0-1/70059456~0-1-solid1\",\"70059552~0-1/70041147~0-2/70041145~0-1-solid1\",\"70059552~0-1/70041147~0-1/70041145~0-1-solid1\",\"70059552~0-1/70036853~1-1-solid1\",\"70040484~2-1/Kugelknopf
+      DIN319 KT-16-B4-M-1-solid3\",\"70040484~2-1/Kugelknopf DIN319 KT-16-B4-M-1-solid2\",\"70040484~2-1/Kugelknopf
+      DIN319 KT-16-B4-M-1-solid1\",\"70040484~2-1/70036910~2-1/70036913~3-1-solid1\",\"70040484~2-1/70036910~2-1/70036912~2-6-solid1\",\"70040484~2-1/70036910~2-1/70036912~2-5-solid1\",\"70040456~0-1/70047464~0-1/70047463~0-1-solid1\",\"70040456~0-1/70040758~3-1/70040452~3-1-solid1\",\"70040456~0-1/70040445~2-1-solid1\",\"70040456~0-1/70036878~1-1-solid1\",\"70040456~0-1/646885~1-1-solid1\",\"70040196~1-1/70040196-Export_Standard~1-1-solid1\",\"70039975~1-1-solid1\",\"70041891~1-1/70041892~0-1/70040689~4-1-solid1\",\"70041891~1-1/70041863~2-1/70040673~1-1-solid1\",\"70041891~1-1/70041863~2-1/70040436~5-1-solid1\",\"70041891~1-1/70040674~1-1-solid1\",\"70041854~0-1/70041671~1-1-solid1\",\"70041854~0-1/621374~2-2-solid1\",\"70041854~0-1/621374~2-1-solid1\",\"621380~4-1/621376~5-1/621377_p02~1-2/776667~2-1-solid1\",\"621380~4-1/621376~5-1/621377_p02~1-2/621373~1-1-solid1\",\"621380~4-1/621376~5-1/621377_p02~1-2/621341~3-2/621340~3-2/621340_p01~3-1-solid1\",\"621380~4-1/621376~5-1/621377_p01~1-2/776667~2-1-solid1\",\"621380~4-1/621376~5-1/621377_p01~1-2/621373~1-1-solid1\",\"621380~4-1/621376~5-1/621377_p01~1-2/621341~3-2/621340~3-2/621340_p01~3-1-solid1\",\"621380~4-1/621376~5-1/620432~1-1/620445~1-2-solid1\",\"621380~4-1/621345~6-1-solid1\",\"621380~4-1/621330~1-1-solid1\",\"Hex-PreBroach\",\"<616436~1>-<Verrundung1>\",\"Body\",\"WFM-0608-08-1-solid1\",\"Linear
+      austragen1\",\"Schnitt-Linear austragen5\",\"\xD83.4 (3.4) Durchmesser Bohrung1\",\"M3
+      Gewindebohrung2\",\"CYL_8\",\"CYL_2\",\"CYL_5\",\"Linear austragen3\",\"EndChamfer\",\"CYL_3\",\"Bohrung1\",\"Schnitt-Linear
+      austragen1\",\"747584_VAVE_L1_1VR8_LP-1-solid1\",\"Importiert2\",\"Importiert1\",\"CYL_9\",\"CYL_6\",\"CYL_1\",\"Verrundung1\",\"Rotation-D\xFCnn1\",\"Base-Revolve\",\"\xD84.5
+      (4.5) Durchmesser Bohrung3\",\"Schnitt-Rotation3\",\"Bohrung5\",\"\xD84.8 (4.8)
+      Durchmesser Bohrung1\",\"M5 Gewindebohrung1\",\"\xD85.2 (5.2) Durchmesser Bohrung1\",\"Verrundung17\",\"Schnitt-Rotation1\",\"Bohrung2\",\"TORUS_5\",\"SPHERE_0\",\"R\xE4ndel-Schraubenkopf
+      M4-1-solid1\",\"M4-912-1-solid1\",\"<611655~1>-<Linear austragen1>\",\"\xD88.0
+      (8) Durchmesser Bohrung3\",\"Linear austragen2\",\"70009376-R~1-1/70009139-R~1-1/70000608~1-1/DIN_6325_Zylinder-Stift-1-solid1\",\"70009376-R~1-1/70009139-R~1-1/70000608~1-1/620464~0-1-solid1\",\"70009376-R~1-1/70009139-R~1-1/620461~1-1-solid1\",\"70009376-R~1-1/70009096-R~2-1/70009108~1-1/620450~2-1-solid1\",\"70009376-R~1-1/70009096-R~2-1/70001668-R~1-1/620449~7-1-solid1\",\"70009376-R~1-1/70009096-R~2-1/621343~6-1-solid1\",\"70009145~1-1/620460~2-1-solid1\",\"70009145~1-1/620429~0-1-solid1\",\"70002884~1-1/70002882~1-4-solid1\",\"70002884~1-1/70002882~1-3-solid1\",\"70001168~1-1/70001167_p01~1-3/776667~2-1-solid1\",\"70001168~1-1/70001167_p01~1-3/621373~1-1-solid1\",\"70001168~1-1/70001167_p01~1-2/776667~2-1-solid1\",\"70001168~1-1/70001167_p01~1-2/621373~1-1-solid1\",\"70001168~1-1/70001167_p01~1-2/621341~3-2/621340~3-2/621342~1-1-solid1\",\"70001168~1-1/70001167_p01~1-2/621341~3-2/621340~3-2/621340_p01~3-1-solid1\",\"70001168~1-1/621377_p02~1-2/776667~2-1-solid1\",\"70001168~1-1/621377_p02~1-2/621373~1-1-solid1\",\"70001168~1-1/621377_p02~1-2/621341~3-2/621340~3-2/621342~1-1-solid1\",\"70001168~1-1/621377_p02~1-2/621341~3-2/621340~3-2/621340_p01~3-1-solid1\",\"70001168~1-1/621333~1-1-solid1\",\"70001168~1-1/620432~1-2/620445~1-2-solid1\",\"647345~5-2/70010694~1-1/70010611~1-1/70010609~1-1-solid1\",\"647345~5-2/70002891~1-1-solid1\",\"620466~3-1/70002891~1-1-solid1\",\"620466~3-1/620481~4-1/620479~3-1-solid1\",\"620466~3-1/620481~4-1/620478~2-1-solid1\",\"620466~3-1/620481~4-1/620476~1-1-solid1\",\"620438~2-1-solid1\",\"620415~1-1/620488~1-1-solid1\",\"620415~1-1/620484~1-1-solid1\",\"Schnitt-Linear
+      austragen2\",\"Verschlussstopfen D32-3-solid1\",\"Verschlussstopfen D32-2-solid1\",\"Verschlussstopfen
+      D32-1-solid1\",\"70076371~0-2/Netzschalter_TA35-CBD-B-L-060-C0-CZM23-1-solid1\",\"70076371~0-2/70071724~0-1/DIN_6325_Zylinder-Stift-1-solid1\",\"70076371~0-2/70071724~0-1/70063573~0-1/70063240~3-1/70062892~3-2-solid1\",\"70076371~0-2/70071005~0-1/70071007~0-2-solid1\",\"70076371~0-2/70071005~0-1/70039003~2-1-solid1\",\"70076371~0-2/70071005~0-1/70037495~5-1-solid1\",\"70076371~0-2/70069808~0-1/70040188_p99~0-1-solid1\",\"70076371~0-2/70064228~0-1/70037548~3-1-solid1\",\"70076371~0-2/70063220~0-1/70063222~0-1/70063221~2-1-solid1\",\"70070616~0-1/70070616-Export_Standard~0-2-solid2\",\"70070616~0-1/70070616-Export_Standard~0-2-solid1\",\"70066663~0-1/70040196-Export_Standard~1-1-solid1\",\"70048066~1-1/70076151~0-1/70076150~0-1-solid1\",\"70048066~1-1/70049083~0-1-solid1\",\"70048066~1-1/70049067~0-2-solid1\",\"70048066~1-1/70036854~4-2/70036242~4-1-solid1\",\"70048066~1-1/646885~1-2-solid1\",\"\xD86.05
+      (6.05) Durchmesser Bohrung1\",\"Fase2\",\"623451~5-1-solid1\",\"Rotation1\",\"\xD820.0
+      (20) Durchmesser Bohrung1\",\"NONE\",\"Spiegeln1\",\"<70061500~0>-<Spiegeln1>\",\"OuterRace\",\"ModLug\",\"Verrundung4\",\"<DIN
+      914>-<Hex>\",\"Fase3\",\"Importiert64\",\"Importiert63\",\"Importiert62\",\"Importiert61\",\"Importiert53\",\"Aufsatz-Linear
+      austragen1\",\"\xD86.5 (6.5) Durchmesser Bohrung1\",\"<DIN_929-Sechskant-Schwei\xDF-Mutter>-<Cbore>\",\"<70006563_p01~0>-<\xD84.7
+      (4.7) Durchmesser Bohrung1>\",\"Verrundung2\",\"Wartungsgeraet LFR-1I8-D-O-MINI-1-solid2\",\"Wartungsgeraet
+      LFR-1I8-D-O-MINI-1-solid1\",\"QSL_1I8_8_153048-1-solid1\",\"QSH_8_153253-1-solid1\",\"HR_D_MINI_164936-1-solid1\",\"HE_3_QS_8_153476-1-solid1\",\"Gewindestift_DIN_913_M4x4__DA04_14_-1-solid1\",\"DA04_l-1-solid1\",\"DA04_14_b1-1-solid1\",\"DA04_02_14_O_OAR_OZP_g-1-solid1\",\"Fl\xE4che
+      l\xF6schen6\",\"DA09SZP-1-solid1\",\"DA09SW-1-solid1\",\"DA09SStift-1-solid1\",\"DA09S_AAb-1-solid1\",\"DA09S_04SF-1-solid1\",\"DA09S_04D-1-solid1\",\"DA09S_02D-1-solid1\",\"DA09S_02_1_e_20_0_ZPG-1-solid1\"],\"padding\":[256,26,104,256,256,256,256,256,64,256,256,256,256,256,256,256,186,256,131,97,79,256,256,256,256,256,75,241,256,256,256,256,103,256,256,256,256,256,256,140,256,256,167,100,196,189,256,256,256,198,229,86,223,256,256,256,220,177,205,220,177,205,172,101,104,256,128,256,256,256,256,256,256,256,256,256,256,256,256,256,79,256,256,256,256,256,256,256,133,256,256,256,179,256,256,256,136,256,256,256,256,256,256,256,250,256,256,256,209,256,98,256,220,256,256,256,220,177,220,177,256,205,220,177,256,205,176,172,166,256,256,256,256,124,66,136,88,256,256,256,256,256,256,75,186,256,131,256,79,97,241,256,256,167,240,154,84,256,256,190,256,256,61,256,146,194,256,256,188,256,256,256,256,256,256,156,256,203,256,166,217,256,146,256,256,256,256,256,256,256,256,238,256,256,256,256,256,256,256,238],\"unwrapper\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
