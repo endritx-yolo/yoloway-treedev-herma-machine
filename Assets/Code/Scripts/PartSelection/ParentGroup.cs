@@ -13,6 +13,9 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
     {
         _colliderArray   = GetComponents<Collider>();
         _partsGroupArray = GetComponentsInChildren<PartsGroup>();
+
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+            _partsGroupArray[i].ParentGroup = this;
     }
 
     private void Start() => DisableChildrenColliders();
@@ -24,9 +27,18 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
         EnableChildrenColliders();
     }
 
-    public void Deselect()
+    public void Deselect() { OnAnyDeSelected?.Invoke(); }
+
+    public void Highlight()
     {
-        OnAnyDeSelected?.Invoke();
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+            _partsGroupArray[i].Highlight();
+    }
+
+    public void DeHighlight()
+    {
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+            _partsGroupArray[i].DeHighlight();
     }
 
     public void EnableColliders()
@@ -52,4 +64,17 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
         for (int i = 0; i < _partsGroupArray.Length; i++)
             _partsGroupArray[i].DisableColliders();
     }
+
+    public void DisableChildrenCollidersExceptTheSelectedOne(PartsGroup partsGroup)
+    {
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+        {
+            if (_partsGroupArray[i].Equals(partsGroup)) continue;
+            _partsGroupArray[i].DisableColliders();
+        }
+    }
+
+    private void OnMouseOver() { Highlight(); }
+
+    private void OnMouseExit() { DeHighlight(); }
 }

@@ -1,5 +1,7 @@
 public interface ISelectableItem
 {
-    public void Select();
-    public void Deselect();
+    void Select();
+    void Deselect();
+    void Highlight();
+    void DeHighlight();
 }

@@ -5,29 +5,46 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
 {
     public static event Action<PartsGroup> OnAnySelected;
     public static event Action             OnAnyDeSelected;
-    
+
+    private ParentGroup _parentGroup;
+
     private Collider[] _colliderArray;
-    private PartItem[] _partItems;
+    private PartItem[] _partItemArray;
+
+    #region Properties
+
+    public ParentGroup ParentGroup { get => _parentGroup; set => _parentGroup = value; }
+
+    #endregion
 
     private void Awake()
     {
         _colliderArray = GetComponents<Collider>();
-        _partItems     = GetComponentsInChildren<PartItem>();
+        _partItemArray = GetComponentsInChildren<PartItem>();
     }
 
     private void Start() => DisableChildrenColliders();
-    
+
     public void Select()
     {
         OnAnySelected?.Invoke(this);
+        ParentGroup.DisableChildrenCollidersExceptTheSelectedOne(this);
         DisableColliders();
         EnableChildrenColliders();
-        Debug.Log($"Selected Group {gameObject.name}");
     }
-    
-    public void Deselect()
+
+    public void Deselect() { OnAnyDeSelected?.Invoke(); }
+
+    public void Highlight()
     {
-        OnAnyDeSelected?.Invoke();
+        for (int i = 0; i < _partItemArray.Length; i++)
+            _partItemArray[i].Highlight();
+    }
+
+    public void DeHighlight()
+    {
+        for (int i = 0; i < _partItemArray.Length; i++)
+            _partItemArray[i].DeHighlight();
     }
 
     public void EnableColliders()
@@ -44,13 +61,17 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
 
     public void EnableChildrenColliders()
     {
-        for (int i = 0; i < _partItems.Length; i++)
-            _partItems[i].EnableColliders();
+        for (int i = 0; i < _partItemArray.Length; i++)
+            _partItemArray[i].EnableColliders();
     }
 
     public void DisableChildrenColliders()
     {
-        for (int i = 0; i < _partItems.Length; i++)
-            _partItems[i].DisableColliders();
+        for (int i = 0; i < _partItemArray.Length; i++)
+            _partItemArray[i].DisableColliders();
     }
+
+    private void OnMouseOver() { Highlight(); }
+
+    private void OnMouseExit() { DeHighlight(); }
 }

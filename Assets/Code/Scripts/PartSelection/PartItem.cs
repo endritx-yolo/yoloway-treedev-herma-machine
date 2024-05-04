@@ -5,10 +5,16 @@ public class PartItem : MonoBehaviour, ISelectableItem
 {
     public static event Action<PartItem> OnAnySelected;
     public static event Action OnAnyDeSelected;
+
+    private MaterialModifier _materialModifier;
     
     private Collider[] _colliderArray;
 
-    private void Awake() { _colliderArray = GetComponents<Collider>(); }
+    private void Awake()
+    {
+        _colliderArray    = GetComponents<Collider>();
+        _materialModifier = GetComponent<MaterialModifier>();
+    }
 
     public void Select()
     {
@@ -18,6 +24,16 @@ public class PartItem : MonoBehaviour, ISelectableItem
     public void Deselect()
     {
         OnAnyDeSelected?.Invoke();
+    }
+
+    public void Highlight()
+    {
+        _materialModifier.Highlight();
+    }
+    
+    public void DeHighlight()
+    {
+        _materialModifier.Dehighlight();
     }
     
     public void EnableColliders()
@@ -30,5 +46,15 @@ public class PartItem : MonoBehaviour, ISelectableItem
     {
         for (int i = 0; i < _colliderArray.Length; i++)
             _colliderArray[i].enabled = false;
+    }
+
+    private void OnMouseOver()
+    {
+        Highlight();
+    }
+
+    private void OnMouseExit()
+    {
+        DeHighlight();
     }
 }

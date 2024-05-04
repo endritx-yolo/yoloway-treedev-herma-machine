@@ -39,21 +39,21 @@ public class SelectedItemsTracker : MonoBehaviour
 
     private void DeselectParentGroup()
     {
-        _selectedParentGroup = null; 
+        _selectedParentGroup.DisableChildrenColliders();
+        _selectedParentGroup.EnableColliders();
+        _selectedParentGroup = null;
     }
 
     private void DeselectPartsGroup()
     {
+        _selectedPartsGroup.DisableChildrenColliders();
+        _selectedParentGroup.EnableChildrenColliders();
         _selectedPartsGroup = null;
-        _selectedParentGroup.EnableColliders();
-        _selectedParentGroup.DisableChildrenColliders();
     }
 
     private void DeselectItem()
     {
         _selectedPartItem = null;
-        _selectedPartsGroup.EnableColliders();
-        _selectedPartsGroup.DisableChildrenColliders();
     }
 
     private void DeselectAnyItem()
