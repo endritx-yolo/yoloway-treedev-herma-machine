@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: HighlightMaterialModifier
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: 9819e67a4859563489f8f7b7df50c0db, type: 2}
+  _transparentMaterial: {fileID: 2100000, guid: 81bd603947297284b999407572cb7e5b, type: 2}

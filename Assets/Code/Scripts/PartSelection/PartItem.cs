@@ -35,6 +35,11 @@ public class PartItem : MonoBehaviour, ISelectableItem
     {
         _materialModifier.Dehighlight();
     }
+
+    public void Hide()
+    {
+        _materialModifier.MakeTransparent();
+    }
     
     public void EnableColliders()
     {

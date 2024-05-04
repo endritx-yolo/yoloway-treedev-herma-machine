@@ -47,6 +47,12 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
             _partItemArray[i].DeHighlight();
     }
 
+    public void Hide()
+    {
+        for (int i = 0; i < _partItemArray.Length; i++)
+            _partItemArray[i].Hide();
+    }
+
     public void EnableColliders()
     {
         for (int i = 0; i < _colliderArray.Length; i++)
