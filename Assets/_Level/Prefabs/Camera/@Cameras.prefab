@@ -47,7 +47,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.42083484, g: 0.4301699, b: 0.46226418, a: 1}
+  m_BackGroundColor: {r: 0.0627451, g: 0.08235294, b: 0.1254902, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -163,8 +163,8 @@ MonoBehaviour:
   Use:
     Filter: 0
     IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
+    RequiredFingerCount: 2
+    RequiredMouseButtons: 1
     RequiredSelectable: {fileID: 0}
   _camera: {fileID: 0}
   zoom: 30
@@ -231,8 +231,8 @@ MonoBehaviour:
   Use:
     Filter: 0
     IgnoreStartedOverGui: 1
-    RequiredFingerCount: 2
-    RequiredMouseButtons: 0
+    RequiredFingerCount: 3
+    RequiredMouseButtons: 2
     RequiredSelectable: {fileID: 0}
   ScreenDepth:
     Conversion: 0
@@ -280,7 +280,7 @@ Transform:
   - {fileID: 4503612146813314060}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4503612147087038826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
-  damping: -1
+  damping: 10
   defaultRotation: {x: 0, y: 0}
   pitch: 0
   pitchSensitivity: 0.15

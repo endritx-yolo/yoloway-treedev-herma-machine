@@ -18,10 +18,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 1
+    value: 0.5
   threshold:
     overrideState: 1
-    value: 0.8
+    value: 1
   softKnee:
     overrideState: 0
     value: 0.5
@@ -47,32 +47,6 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
---- !u!114 &-4951595724406757860
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
-  m_Name: ChromaticAberration
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  spectralLut:
-    overrideState: 0
-    value: {fileID: 0}
-    defaultState: 1
-  intensity:
-    overrideState: 1
-    value: 0.2
-  fastMode:
-    overrideState: 1
-    value: 1
 --- !u!114 &-4397452736089799057
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -91,14 +65,14 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 1
+    value: 0
   externalLut:
     overrideState: 0
     value: {fileID: 0}
     defaultState: 1
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 1
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -138,7 +112,7 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: -20
+    value: 0
   brightness:
     overrideState: 0
     value: 0
@@ -147,7 +121,7 @@ MonoBehaviour:
     value: 0.5
   contrast:
     overrideState: 1
-    value: 33
+    value: 0
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -1449,7 +1423,6 @@ MonoBehaviour:
   m_Name: High
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: -4951595724406757860}
   - {fileID: -4397452736089799057}
   - {fileID: 6407074050254174152}
   - {fileID: 2630872022806787078}
@@ -1504,7 +1477,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.379
+    value: 0.27
   smoothness:
     overrideState: 1
     value: 0.292
