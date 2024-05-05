@@ -1,5 +1,8 @@
 using UnityEngine;
 using System;
+using Lean.Common;
+using Lean.Touch;
+using Cinemachine;
 
 public class PartItem : MonoBehaviour, ISelectableItem
 {
@@ -7,6 +10,8 @@ public class PartItem : MonoBehaviour, ISelectableItem
     public static event Action OnAnyDeSelected;
     public event Action OnSelect;
     public event Action OnDeSelect;
+    public event Action OnHighlighted;
+    public event Action OnUnHighlighted;
 
     private MaterialModifier _materialModifier;
     
@@ -32,11 +37,13 @@ public class PartItem : MonoBehaviour, ISelectableItem
 
     public void Highlight()
     {
+        OnHighlighted?.Invoke();
         _materialModifier.Highlight();
     }
     
     public void DeHighlight()
     {
+        OnUnHighlighted?.Invoke();
         _materialModifier.Dehighlight();
     }
 

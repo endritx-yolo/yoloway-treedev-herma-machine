@@ -5,6 +5,8 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
 {
     public static event Action<PartsGroup> OnAnySelected;
     public static event Action             OnAnyDeSelected;
+    public event Action OnHighlighted;
+    public event Action OnUnHighlighted;
 
     private ParentGroup _parentGroup;
 
@@ -37,12 +39,14 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
 
     public void Highlight()
     {
+        OnHighlighted?.Invoke();
         for (int i = 0; i < _partItemArray.Length; i++)
             _partItemArray[i].Highlight();
     }
 
     public void DeHighlight()
     {
+        OnUnHighlighted?.Invoke();
         for (int i = 0; i < _partItemArray.Length; i++)
             _partItemArray[i].DeHighlight();
     }

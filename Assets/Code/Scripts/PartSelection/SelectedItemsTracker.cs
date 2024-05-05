@@ -30,6 +30,8 @@ public class SelectedItemsTracker : MonoBehaviour
         PartItem.OnAnyDeSelected    += DeselectItem;
 
         PartSelectionController.OnAnyDeselectItem += DeselectAnyItem;
+
+        UIItems.OnAnyDeselectItem += DeselectAnyItem;
     }
 
     public void OnDisable()
@@ -38,12 +40,13 @@ public class SelectedItemsTracker : MonoBehaviour
         PartsGroup.OnAnySelected  -= SelectPartsGroup;
         PartItem.OnAnySelected    -= SelectItem;
 
-
         ParentGroup.OnAnyDeSelected -= DeselectParentGroup;
         PartsGroup.OnAnyDeSelected  -= DeselectPartsGroup;
         PartItem.OnAnyDeSelected    -= DeselectItem;
 
         PartSelectionController.OnAnyDeselectItem -= DeselectAnyItem;
+
+        UIItems.OnAnyDeselectItem -= DeselectAnyItem;
     }
 
     private void SelectParentGroup(ParentGroup parentGroup)

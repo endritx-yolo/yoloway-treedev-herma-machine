@@ -5,6 +5,8 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
 {
     public static event Action<ParentGroup> OnAnySelected;
     public static event Action              OnAnyDeSelected;
+    public event Action OnHighlighted;
+    public event Action OnUnHighlighted;
 
     private Collider[]   _colliderArray;
     private PartsGroup[] _partsGroupArray;
@@ -31,12 +33,14 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
 
     public void Highlight()
     {
+        OnHighlighted?.Invoke();
         for (int i = 0; i < _partsGroupArray.Length; i++)
             _partsGroupArray[i].Highlight();
     }
 
     public void DeHighlight()
     {
+        OnUnHighlighted?.Invoke();
         for (int i = 0; i < _partsGroupArray.Length; i++)
             _partsGroupArray[i].DeHighlight();
     }

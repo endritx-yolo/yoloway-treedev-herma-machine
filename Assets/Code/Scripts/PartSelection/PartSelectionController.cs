@@ -20,7 +20,7 @@ public class PartSelectionController : MonoBehaviour
     private void Update()
     {
         HandlePartsSelection();
-        HandlePartsDeselection();
+        //HandlePartsDeselection();
     }
 
     private bool _allowObjectSelection;
