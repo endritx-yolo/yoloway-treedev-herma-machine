@@ -53,6 +53,12 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
             _partItemArray[i].Hide();
     }
 
+    public void Show()
+    {
+         for (int i = 0; i < _partItemArray.Length; i++)
+         _partItemArray[i].Show();
+    }
+
     public void EnableColliders()
     {
         for (int i = 0; i < _colliderArray.Length; i++)

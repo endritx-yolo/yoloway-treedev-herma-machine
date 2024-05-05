@@ -5,6 +5,8 @@ public class PartItem : MonoBehaviour, ISelectableItem
 {
     public static event Action<PartItem> OnAnySelected;
     public static event Action OnAnyDeSelected;
+    public event Action OnSelect;
+    public event Action OnDeSelect;
 
     private MaterialModifier _materialModifier;
     
@@ -19,11 +21,13 @@ public class PartItem : MonoBehaviour, ISelectableItem
     public void Select()
     {
         OnAnySelected?.Invoke(this);
+        OnSelect?.Invoke();
     }
     
     public void Deselect()
     {
         OnAnyDeSelected?.Invoke();
+        OnDeSelect?.Invoke();
     }
 
     public void Highlight()
@@ -39,6 +43,11 @@ public class PartItem : MonoBehaviour, ISelectableItem
     public void Hide()
     {
         _materialModifier.MakeTransparent();
+    }
+
+    public void Show()
+    {
+        _materialModifier.MakeOpaque();
     }
     
     public void EnableColliders()

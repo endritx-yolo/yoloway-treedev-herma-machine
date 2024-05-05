@@ -47,6 +47,12 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
             _partsGroupArray[i].Hide();
     }
 
+    public void Show()
+    {
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+            _partsGroupArray[i].Show();
+    }
+
     public void EnableColliders()
     {
         for (int i = 0; i < _colliderArray.Length; i++)

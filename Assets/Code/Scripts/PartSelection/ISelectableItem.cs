@@ -4,4 +4,6 @@ public interface ISelectableItem
     void Deselect();
     void Highlight();
     void DeHighlight();
+    void Hide();
+    void Show();
 }

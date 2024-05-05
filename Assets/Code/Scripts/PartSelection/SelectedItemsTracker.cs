@@ -68,12 +68,9 @@ public class SelectedItemsTracker : MonoBehaviour
 
     private void SelectItem(PartItem partItem)
     {
+        if (_selectedPartItem != null)
+            _selectedPartItem.Deselect();
         _selectedPartItem = partItem;
-        for (int i = 0; i < _itemList.Count; i++)
-        {
-            if (_itemList[i].Equals(_selectedPartItem)) continue;
-            _itemList[i].Hide();
-        }
     }
 
     private void DeselectParentGroup()
@@ -90,7 +87,10 @@ public class SelectedItemsTracker : MonoBehaviour
         _selectedPartsGroup = null;
     }
 
-    private void DeselectItem() { _selectedPartItem = null; }
+    private void DeselectItem() 
+    {
+        _selectedPartItem = null; 
+    }
 
     private void DeselectAnyItem()
     {
@@ -98,6 +98,7 @@ public class SelectedItemsTracker : MonoBehaviour
         {
             _selectedPartItem.Deselect();
             _selectedPartItem = null;
+            _selectedPartsGroup.Show();
             return;
         }
 
@@ -105,6 +106,7 @@ public class SelectedItemsTracker : MonoBehaviour
         {
             _selectedPartsGroup.Deselect();
             _selectedPartsGroup = null;
+            _selectedParentGroup.Show();
             return;
         }
 
@@ -112,6 +114,10 @@ public class SelectedItemsTracker : MonoBehaviour
         {
             _selectedParentGroup.Deselect();
             _selectedParentGroup = null;
+
+            for (int i = 0; i < _parentGroupList.Count; i++)
+                _parentGroupList[i].Show();
+
             return;
         }
     }
