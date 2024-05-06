@@ -35,71 +35,59 @@ public class UIMachinePresenter : MonoBehaviour
 
     private void OnEnable()
     {
-        ParentGroup.OnAnySelected += OnGroupSelected;
-        PartsGroup.OnAnySelected += OnSubGroupSelected;
-        PartItem.OnAnySelected += OnItemSelected;
-
-        ParentGroup.OnAnyDeSelected += OnGroupDeSelected;
-        PartsGroup.OnAnyDeSelected += OnSubGroupDeSelected;
-        PartItem.OnAnyDeSelected += OnItemDeSelected;
+        SelectedItemsTracker.OnAnyGroupAssigned += OnGroupSelected;
+        SelectedItemsTracker.OnAnySubGroupAssigned += OnSubGroupSelected;
+        SelectedItemsTracker.OnAnyItemAssigned += OnItemSelected;
     }
 
     private void OnDisable()
     {
-        ParentGroup.OnAnySelected -= OnGroupSelected;
-        PartsGroup.OnAnySelected -= OnSubGroupSelected;
-        PartItem.OnAnySelected -= OnItemSelected;
-
-        ParentGroup.OnAnyDeSelected -= OnGroupDeSelected;
-        PartsGroup.OnAnyDeSelected -= OnSubGroupDeSelected;
-        PartItem.OnAnyDeSelected -= OnItemDeSelected;
+        SelectedItemsTracker.OnAnyGroupAssigned -= OnGroupSelected;
+        SelectedItemsTracker.OnAnySubGroupAssigned -= OnSubGroupSelected;
+        SelectedItemsTracker.OnAnyItemAssigned -= OnItemSelected;
     }
 
     private void OnGroupSelected(ParentGroup parentGroup)
     {
+        _parentGroup = parentGroup;
+        if (_parentGroup == null) 
+        {
+            _panel.SetActive(false);
+            return;
+        }
         _panel.SetActive(true);
         _itemNameText.text = parentGroup.gameObject.name;
         _priceText.text = $"{_pricePrefix}{parentGroup.Price}{_pricePostFix}";
-        _parentGroup = parentGroup;
+    
         UpdateItemCountText();
     }
 
     private void OnSubGroupSelected(PartsGroup partsGroup)
     {
+        _partsGroup = partsGroup;
+        if (partsGroup == null)
+        {
+            OnGroupSelected(_parentGroup);
+            return;
+        }
         _panel.SetActive(true);
         _itemNameText.text = partsGroup.gameObject.name;
         _priceText.text = $"{_pricePrefix}{partsGroup.Price}{_pricePostFix}";
-        _partsGroup = partsGroup;
         UpdateItemCountText();
     }
 
     private void OnItemSelected(PartItem partItem)
     {
+        _partItem = partItem;
+        if (partItem == null) 
+        {
+            OnSubGroupSelected(_partsGroup);
+            return;
+        }
         _panel.SetActive(true);
         _itemNameText.text = partItem.gameObject.name;
         _priceText.text = $"{_pricePrefix}{partItem.Price}{_pricePostFix}";
-        _partItem = partItem;
-        Debug.Log($"SELECTED: {_partItem}");
         UpdateItemCountText();
-    }
-
-    private void OnGroupDeSelected()
-    {
-        _parentGroup = null;
-        _panel.SetActive(false);
-    }
-
-    private void OnSubGroupDeSelected()
-    {
-        _partsGroup = null;
-        OnGroupSelected(_parentGroup);
-    }
-
-    private void OnItemDeSelected()
-    {
-        Debug.Log($"DESELECTEEEED: {_partItem}");
-        _partItem = null;
-        OnSubGroupSelected(_partsGroup);
     }
     
     private void AddItemToCart()
