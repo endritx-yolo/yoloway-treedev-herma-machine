@@ -1,11 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Leon.Singleton;
 using UnityEngine;
 
-public class CartController : SceneSingleton<CartController>
+public class CartController : MonoBehaviour
 {
+    public static event Action OnAnyAddNewItemToCard;
+
     [SerializeField] private List<ParentGroup> _parentGroupList = new List<ParentGroup>();
     [SerializeField] private List<PartsGroup> _partsGroupList = new List<PartsGroup>();
     [SerializeField] private List<PartItem> _itemGroupList = new List<PartItem>();
@@ -35,16 +38,19 @@ public class CartController : SceneSingleton<CartController>
     private void OnAddGroupToCart(ParentGroup parentGroup)
     {
         _parentGroupList.Add(parentGroup);
+        OnAnyAddNewItemToCard?.Invoke();
     }
 
     private void OnAddSubGroupToCart(PartsGroup partsGroup)
     {
         _partsGroupList.Add(partsGroup);
+        OnAnyAddNewItemToCard?.Invoke();
     }
 
     private void OnAddItemToCart(PartItem partItem)
     {
         _itemGroupList.Add(partItem);
+        OnAnyAddNewItemToCard?.Invoke();
     }
 
     public int GetGroupCount(ParentGroup parentGroup)

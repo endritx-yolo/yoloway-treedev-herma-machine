@@ -118,19 +118,19 @@ public class UIMachinePresenter : MonoBehaviour
     {
         if (_partItem != null)
         {
-            _itemCountText.text = CartController.Instance.GetItemCount(_partItem).ToString();
+            // _itemCountText.text = CartController.Instance.GetItemCount(_partItem).ToString();
             return;
         }
             
         if (_partsGroup != null)
         {
-            _itemCountText.text = CartController.Instance.GetSubGroupCount(_partsGroup).ToString();
+            // _itemCountText.text = CartController.Instance.GetSubGroupCount(_partsGroup).ToString();
             return;
         }
            
         if (_parentGroup != null)
         {
-            _itemCountText.text = CartController.Instance.GetGroupCount(_parentGroup).ToString();
+            // _itemCountText.text = CartController.Instance.GetGroupCount(_parentGroup).ToString();
             return;
         }
     }
