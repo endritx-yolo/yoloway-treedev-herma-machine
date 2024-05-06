@@ -1,9 +1,14 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 public class SelectedItemsTracker : MonoBehaviour
 {
+    public static event Action<ParentGroup> OnAnyGroupAssigned;
+    public static event Action<PartsGroup> OnAnySubGroupAssigned;
+    public static event Action<PartItem> OnAnyItemAssigned;
+
     private List<ParentGroup> _parentGroupList = new List<ParentGroup>();
     private List<PartsGroup>  _partsGroupList  = new List<PartsGroup>();
     private List<PartItem>    _itemList        = new List<PartItem>();
@@ -11,6 +16,40 @@ public class SelectedItemsTracker : MonoBehaviour
     [SerializeField] private ParentGroup _selectedParentGroup;
     [SerializeField] private PartsGroup  _selectedPartsGroup;
     [SerializeField] private PartItem    _selectedPartItem;
+
+    #region Properties
+
+    public ParentGroup SelectedParentGroup 
+    {
+        get =>  _selectedParentGroup;
+        set
+        {
+            _selectedParentGroup = value;
+            OnAnyGroupAssigned?.Invoke(_selectedParentGroup);
+        }
+    }
+
+    public PartsGroup SelectedPartsGroup 
+    {
+        get =>  _selectedPartsGroup;
+        set
+        {
+            _selectedPartsGroup = value;
+            OnAnySubGroupAssigned?.Invoke(_selectedPartsGroup);
+        }
+    }
+
+    public PartItem SelectedPartItem 
+    {
+        get =>  _selectedPartItem;
+        set
+        {
+            _selectedPartItem = value;
+            OnAnyItemAssigned?.Invoke(_selectedPartItem);
+        }
+    }
+
+    #endregion
 
     private void Awake()
     {
@@ -51,72 +90,72 @@ public class SelectedItemsTracker : MonoBehaviour
 
     private void SelectParentGroup(ParentGroup parentGroup)
     {
-        _selectedParentGroup = parentGroup;
+        SelectedParentGroup = parentGroup;
         for (int i = 0; i < _parentGroupList.Count; i++)
         {
-            if (_parentGroupList[i].Equals(_selectedParentGroup)) continue;
+            if (_parentGroupList[i].Equals(SelectedParentGroup)) continue;
             _parentGroupList[i].Hide();
         }
     }
 
     private void SelectPartsGroup(PartsGroup partsGroup)
     {
-        _selectedPartsGroup = partsGroup;
+        SelectedPartsGroup = partsGroup;
         for (int i = 0; i < _partsGroupList.Count; i++)
         {
-            if (_partsGroupList[i].Equals(_selectedPartsGroup)) continue;
+            if (_partsGroupList[i].Equals(SelectedPartsGroup)) continue;
             _partsGroupList[i].Hide();
         }
     }
 
     private void SelectItem(PartItem partItem)
     {
-        if (_selectedPartItem != null)
-            _selectedPartItem.Deselect();
-        _selectedPartItem = partItem;
+        if (SelectedPartItem != null)
+            SelectedPartItem.Deselect();
+        SelectedPartItem = partItem;
     }
 
     private void DeselectParentGroup()
     {
-        _selectedParentGroup.DisableChildrenColliders();
-        _selectedParentGroup.EnableColliders();
-        _selectedParentGroup = null;
+        SelectedParentGroup.DisableChildrenColliders();
+        SelectedParentGroup.EnableColliders();
+        SelectedParentGroup = null;
     }
 
     private void DeselectPartsGroup()
     {
-        _selectedPartsGroup.DisableChildrenColliders();
-        _selectedParentGroup.EnableChildrenColliders();
-        _selectedPartsGroup = null;
+        SelectedPartsGroup.DisableChildrenColliders();
+        SelectedParentGroup.EnableChildrenColliders();
+        SelectedPartsGroup = null;
     }
 
     private void DeselectItem() 
     {
-        _selectedPartItem = null; 
+        SelectedPartItem = null; 
     }
 
     private void DeselectAnyItem()
     {
-        if (_selectedPartItem != null)
+        if (SelectedPartItem != null)
         {
-            _selectedPartItem.Deselect();
-            _selectedPartItem = null;
-            _selectedPartsGroup.Show();
+            SelectedPartItem.Deselect();
+            SelectedPartItem = null;
+            SelectedPartsGroup.Show();
             return;
         }
 
-        if (_selectedPartsGroup != null)
+        if (SelectedPartsGroup != null)
         {
-            _selectedPartsGroup.Deselect();
-            _selectedPartsGroup = null;
-            _selectedParentGroup.Show();
+            SelectedPartsGroup.Deselect();
+            SelectedPartsGroup = null;
+            SelectedParentGroup.Show();
             return;
         }
 
-        if (_selectedParentGroup != null)
+        if (SelectedParentGroup != null)
         {
-            _selectedParentGroup.Deselect();
-            _selectedParentGroup = null;
+            SelectedParentGroup.Deselect();
+            SelectedParentGroup = null;
 
             for (int i = 0; i < _parentGroupList.Count; i++)
                 _parentGroupList[i].Show();

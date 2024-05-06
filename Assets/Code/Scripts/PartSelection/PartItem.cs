@@ -3,6 +3,7 @@ using System;
 using Lean.Common;
 using Lean.Touch;
 using Cinemachine;
+using UnityEngine.EventSystems;
 
 public class PartItem : MonoBehaviour, ISelectableItem
 {
@@ -12,15 +13,24 @@ public class PartItem : MonoBehaviour, ISelectableItem
     public event Action OnDeSelect;
     public event Action OnHighlighted;
     public event Action OnUnHighlighted;
+    
+    [SerializeField] private int _price;
 
     private MaterialModifier _materialModifier;
     
     private Collider[] _colliderArray;
 
+    #region Properties
+
+    public int Price => _price;
+
+    #endregion
+
     private void Awake()
     {
         _colliderArray    = GetComponents<Collider>();
         _materialModifier = GetComponent<MaterialModifier>();
+        _price = UnityEngine.Random.Range(0, 100);
     }
 
     public void Select()
@@ -71,11 +81,13 @@ public class PartItem : MonoBehaviour, ISelectableItem
 
     private void OnMouseOver()
     {
+    if (EventSystem.current.IsPointerOverGameObject()) return;
         Highlight();
     }
 
     private void OnMouseExit()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         DeHighlight();
     }
 }

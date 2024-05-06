@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5438657468830529571}
   - component: {fileID: 3326280396861372976}
   m_Layer: 6
-  m_Name: PostProcessingHighQuality
+  m_Name: PostProcessingLowQuality
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9005167373556410424}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.17796355, y: 0.30778712, z: -6.9213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3326280396861372976
 MonoBehaviour:
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: a5a108c5d97d64b48947becb2f0171fc, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 335c4b7167b6e274988bd85ec220e6c1, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1

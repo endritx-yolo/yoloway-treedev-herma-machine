@@ -38741,6 +38741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7917686202948773401}
+  - component: {fileID: 919132148773169607}
   m_Layer: 7
   m_Name: Herma
   m_TagString: Untagged
@@ -38764,6 +38765,18 @@ Transform:
   m_Father: {fileID: 7668500811749061794}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &919132148773169607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397889210162986147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ebe8ebd9347aba4f9f712e6fb4354e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7422365776888812420
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
 using UnityEngine;
 using System;
+using System.Linq;
+using UnityEngine.EventSystems;
 
 public class PartsGroup : MonoBehaviour, ISelectableItem
 {
@@ -14,9 +16,13 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
     private PartItem[] _partItemArray;
     private Renderer[] _renderers;
 
+    private int _price;
+
     #region Properties
 
     public ParentGroup ParentGroup { get => _parentGroup; set => _parentGroup = value; }
+
+    public int Price => _price;
 
     #endregion
 
@@ -27,7 +33,17 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
         _renderers = GetComponentsInChildren<Renderer>();
     }
 
-    private void Start() => DisableChildrenColliders();
+    private void Start() 
+    {
+        DisableChildrenColliders();
+        CalculateTotalPrice();
+    }
+
+    private void CalculateTotalPrice()
+    {
+        for(int i = 0; i < _partItemArray.Length; i++)
+            _price += _partItemArray[i].Price;
+    }
 
     public void Select()
     {
@@ -100,7 +116,15 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
        return center;
     }
 
-    private void OnMouseOver() { Highlight(); }
+    private void OnMouseOver() 
+    {
+        if (EventSystem.current.IsPointerOverGameObject()) return; 
+        Highlight(); 
+    }
 
-    private void OnMouseExit() { DeHighlight(); }
+    private void OnMouseExit() 
+    {
+        if (EventSystem.current.IsPointerOverGameObject()) return; 
+         DeHighlight(); 
+    }
 }

@@ -23,7 +23,6 @@ public class PartSelectionController : MonoBehaviour
     private void Update()
     {
         HandlePartsSelection();
-        HandleRightClick();
         //HandlePartsDeselection();
     }
 
@@ -58,20 +57,6 @@ public class PartSelectionController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hitInfo, 100.0f, _layerMask))
                 if (hitInfo.collider.TryGetComponent(out ISelectableItem item)) { item.Select(); }
-        }
-    }
-
-    private void HandleRightClick()
-    {
-        return;
-        if (Input.GetMouseButtonDown(1))
-        {
-            OnAnyMouseRightClick?.Invoke();
-        }
-
-        if (Input.GetMouseButtonUp(1))
-        {
-            OnAnyMouseRightClick?.Invoke();
         }
     }
 

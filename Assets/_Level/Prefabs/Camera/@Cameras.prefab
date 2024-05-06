@@ -265,6 +265,9 @@ MonoBehaviour:
   _partsGroupOffset: {x: 0, y: 0.4, z: -2.25}
   _parentGroupZoomLevel: 20
   _partsGroupZoomLevel: 10
+  _cameraOrigin: {x: -0.1, y: 0.4, z: -2.25}
+  _cameraTransitionSpeed: 2.5
+  _cameraTransitionEase: 6
 --- !u!1 &4503612147087038828
 GameObject:
   m_ObjectHideFlags: 0
