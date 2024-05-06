@@ -12,6 +12,7 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
 
     private Collider[] _colliderArray;
     private PartItem[] _partItemArray;
+    private Renderer[] _renderers;
 
     #region Properties
 
@@ -23,6 +24,7 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
     {
         _colliderArray = GetComponents<Collider>();
         _partItemArray = GetComponentsInChildren<PartItem>();
+        _renderers = GetComponentsInChildren<Renderer>();
     }
 
     private void Start() => DisableChildrenColliders();
@@ -85,6 +87,17 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
     {
         for (int i = 0; i < _partItemArray.Length; i++)
             _partItemArray[i].DisableColliders();
+    }
+
+    public Vector3 GetBoundsCenterPosition()
+    {
+       Bounds bounds = _renderers[0].bounds;
+       for(int i = 0; i < _renderers.Length; i++)
+       {
+            bounds = bounds.GrowBounds(_renderers[i].bounds);
+       }
+       Vector3 center = bounds.center;
+       return center;
     }
 
     private void OnMouseOver() { Highlight(); }

@@ -24,7 +24,6 @@ public class MaterialModifier : MonoBehaviour
     private readonly string _renderType = "RenderType";
     private readonly string _transparent = "Transparent";
     private readonly string _opaque = "Opaque";
-    private readonly string _color = "_Color";
     private readonly string _dstBlend = "_DstBlend";
     private readonly string _glossiness = "_Glossiness";
     private readonly string _metallic = "_Metallic";

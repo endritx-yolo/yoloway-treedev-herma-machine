@@ -1,9 +1,12 @@
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 
 public class PartSelectionController : MonoBehaviour
 {
     public static event Action OnAnyDeselectItem;
+    public static event Action OnAnyMouseRightClick;
+
     private Camera             _mainCamera;
 
     [SerializeField] private LayerMask _layerMask;
@@ -20,6 +23,7 @@ public class PartSelectionController : MonoBehaviour
     private void Update()
     {
         HandlePartsSelection();
+        HandleRightClick();
         //HandlePartsDeselection();
     }
 
@@ -27,7 +31,8 @@ public class PartSelectionController : MonoBehaviour
     
     private void HandlePartsSelection()
     {
-
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+        
         if (Input.GetMouseButtonDown(0))
         {
             _allowObjectSelection = true;
@@ -53,6 +58,20 @@ public class PartSelectionController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hitInfo, 100.0f, _layerMask))
                 if (hitInfo.collider.TryGetComponent(out ISelectableItem item)) { item.Select(); }
+        }
+    }
+
+    private void HandleRightClick()
+    {
+        return;
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnAnyMouseRightClick?.Invoke();
+        }
+
+        if (Input.GetMouseButtonUp(1))
+        {
+            OnAnyMouseRightClick?.Invoke();
         }
     }
 

@@ -37,8 +37,8 @@ public class UIMachineSubGroup : MonoBehaviour, IPointerEnterHandler, IPointerEx
     private void OnDisable()
     {
         if (PartsGroup == null) return;
-        PartsGroup.OnHighlighted += MarkHighlighted;
-        PartsGroup.OnUnHighlighted += UnMark;
+        PartsGroup.OnHighlighted -= MarkHighlighted;
+        PartsGroup.OnUnHighlighted -= UnMark;
     }
 
     private void EnableSubGroup()

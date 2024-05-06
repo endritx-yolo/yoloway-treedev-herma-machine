@@ -20,6 +20,9 @@ public class UIItems : MonoBehaviour
     [SerializeField]private GameObject _subGroup;
     [SerializeField]private GameObject _item;
 
+    private UIMachineGroup _selectedGroup;
+    private UIMachineSubGroup _selectedSubGroup;
+
     private void Awake()
     {
         _backButton.onClick.AddListener(DeselectItem);
@@ -37,8 +40,6 @@ public class UIItems : MonoBehaviour
         PartItem.OnAnySelected    += HighlightItemButton;
         ParentGroup.OnAnySelected += OnGroupSelected;
         PartsGroup.OnAnySelected += OnSubGroupSelected;
-
-        //PartSelectionController.OnAnyDeselectItem += UpdateUIStep;
     }
 
     private void OnDisable()
@@ -50,8 +51,6 @@ public class UIItems : MonoBehaviour
         PartItem.OnAnySelected    -= HighlightItemButton;
         ParentGroup.OnAnySelected -= OnGroupSelected;
         PartsGroup.OnAnySelected -= OnSubGroupSelected;
-
-        //PartSelectionController.OnAnyDeselectItem -= UpdateUIStep;
     }
 
     private void DeselectItem()
@@ -61,7 +60,6 @@ public class UIItems : MonoBehaviour
             _item.SetActive(false);
             _subGroup.SetActive(true);
             _item = null;
-            //OnAnyDeselectItem?.Invoke();
             OnAnyDeselectItem?.Invoke();
             if (_highlightedUIItem == null) return;
             _highlightedUIItem.Deselect();
@@ -90,7 +88,18 @@ public class UIItems : MonoBehaviour
 
     private void AssignItem(GameObject item)
     {
-        _subGroup.SetActive(false);
+        if (_subGroup != null)
+        {
+            _subGroup.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("Subgroup is null");
+            _subGroup = _selectedGroup.Subgroup;
+            _subGroup.SetActive(false);
+            _groupPanel.SetActive(false);
+            _backButton.gameObject.SetActive(true);
+        }
         _item = item;
     }
 
@@ -115,7 +124,11 @@ public class UIItems : MonoBehaviour
     private void OnGroupSelected(ParentGroup parentGroup)
     {
         var group = _uiGroupArray.Where(x => x != null && x.ParentGroup != null && x.ParentGroup.Equals(parentGroup)).FirstOrDefault();
-        group.EnableGroupFrom3DInput();
+        if (group != null)
+        {
+            _selectedGroup = group;
+            group.EnableGroupFrom3DInput();
+        }
     }
 
     private void OnSubGroupSelected(PartsGroup partGroup)

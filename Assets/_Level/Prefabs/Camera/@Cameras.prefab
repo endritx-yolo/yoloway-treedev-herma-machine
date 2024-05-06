@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4503612146813314054}
   - component: {fileID: 4503612146813314055}
   - component: {fileID: 4503612146813314053}
+  - component: {fileID: 4387605678870335176}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -168,7 +169,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   _camera: {fileID: 0}
   zoom: 30
-  damping: 20
+  damping: 5
   clamp: 0
   clampMin: 10
   clampMax: 60
@@ -247,6 +248,23 @@ MonoBehaviour:
   inertia: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   remainingDelta: {x: -0.000000544277, y: 0.00000012036426, z: -0.0000006519117}
+--- !u!114 &4387605678870335176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503612146813314061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b15fac08862144bba9ef2dfd01b36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wholeObjectGroupOffset: {x: 0, y: 0.32, z: -2.25}
+  _parentGroupOffset: {x: 0, y: 0.4, z: -2.25}
+  _partsGroupOffset: {x: 0, y: 0.4, z: -2.25}
+  _parentGroupZoomLevel: 20
+  _partsGroupZoomLevel: 10
 --- !u!1 &4503612147087038828
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +276,7 @@ GameObject:
   - component: {fileID: 4503612147087038827}
   - component: {fileID: 4503612147087038826}
   - component: {fileID: 4503612147087038825}
+  - component: {fileID: 2675783769088254469}
   m_Layer: 0
   m_Name: '@Cameras'
   m_TagString: Untagged
@@ -372,3 +391,24 @@ MonoBehaviour:
   onWorldFromTo:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2675783769088254469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503612147087038828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca219fe20be97d458dde64fadddf91a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 0}
+  destinationOffset: {x: 0, y: 0, z: 0}
+  position: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
+  damping: 10
+  linear: 0
+  ignoreZ: 0
+  continuous: 1
+  setPositionOnStart: 1

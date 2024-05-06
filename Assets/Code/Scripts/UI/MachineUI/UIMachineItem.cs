@@ -34,8 +34,8 @@ public class UIMachineItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private void OnDisable()
     {
         if (PartItem == null) return;
-        PartItem.OnHighlighted += MarkHighlighted;
-        PartItem.OnUnHighlighted += UnMark;
+        PartItem.OnHighlighted -= MarkHighlighted;
+        PartItem.OnUnHighlighted -= UnMark;
     }
 
     private void EnableItem()

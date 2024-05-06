@@ -39,8 +39,8 @@ public class UIMachineGroup : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     private void OnDisable()
     {
         if (ParentGroup == null) return;
-        ParentGroup.OnHighlighted += MarkHighlighted;
-        ParentGroup.OnUnHighlighted += UnMark;
+        ParentGroup.OnHighlighted -= MarkHighlighted;
+        ParentGroup.OnUnHighlighted -= UnMark;
     }
 
     private void EnableGroup()

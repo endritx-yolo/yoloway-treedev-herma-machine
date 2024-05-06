@@ -10,11 +10,13 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
 
     private Collider[]   _colliderArray;
     private PartsGroup[] _partsGroupArray;
+    private Renderer[] _renderers;
 
     private void Awake()
     {
         _colliderArray   = GetComponents<Collider>();
         _partsGroupArray = GetComponentsInChildren<PartsGroup>();
+        _renderers = GetComponentsInChildren<Renderer>();
 
         for (int i = 0; i < _partsGroupArray.Length; i++)
             _partsGroupArray[i].ParentGroup = this;
@@ -90,7 +92,24 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
         }
     }
 
+    public Vector3 GetBoundsCenterPosition()
+    {
+       Bounds bounds = _renderers[0].bounds;
+       for(int i = 0; i < _renderers.Length; i++)
+       {
+            bounds = bounds.GrowBounds(_renderers[i].bounds);
+       }
+       Vector3 center = bounds.center;
+       return center;
+    }
+
     private void OnMouseOver() { Highlight(); }
 
     private void OnMouseExit() { DeHighlight(); }
+    
+    private void OnDrawGizmosSelected() 
+    {
+        if (_renderers.Length == 0) _renderers = GetComponentsInChildren<Renderer>();
+       Gizmos.DrawWireSphere(GetBoundsCenterPosition(), .5f);
+    }
 }
