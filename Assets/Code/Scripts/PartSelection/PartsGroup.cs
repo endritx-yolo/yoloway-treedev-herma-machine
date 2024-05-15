@@ -21,6 +21,7 @@ public class PartsGroup : MonoBehaviour, ISelectableItem
     #region Properties
 
     public ParentGroup ParentGroup { get => _parentGroup; set => _parentGroup = value; }
+    public PartItem[] PartItemArray => _partItemArray;
 
     public int Price => _price;
 

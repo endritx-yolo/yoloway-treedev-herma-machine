@@ -37,11 +37,22 @@ public class ParentGroup : MonoBehaviour, ISelectableItem
         CalculateTotalPrice();
     } 
 
-    private void CalculateTotalPrice()
+    public void CalculateTotalPrice()
     {
         for(int i = 0; i < _partsGroupArray.Length; i++)
             _price += _partsGroupArray[i].Price;
     }
+
+    /*public void CalculateTotalPriceForced()
+    {
+        for (int i = 0; i < _partsGroupArray.Length; i++)
+        {
+            for (int j = 0; j < _partsGroupArray[i].PartItemArray.Length; j++)
+            {
+                _price += _partsGroupArray[i].PartItemArray[j].Price;
+            }
+        }
+    }*/
 
     public void Select()
     {

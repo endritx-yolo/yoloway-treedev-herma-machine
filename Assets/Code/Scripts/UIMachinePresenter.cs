@@ -57,8 +57,11 @@ public class UIMachinePresenter : MonoBehaviour
         }
         _panel.SetActive(true);
         _itemNameText.text = parentGroup.gameObject.name;
+        if (parentGroup.Price == 0)
+        {
+            parentGroup.CalculateTotalPrice();
+        }
         _priceText.text = $"{_pricePrefix}{parentGroup.Price}{_pricePostFix}";
-    
         UpdateItemCountText();
     }
 
