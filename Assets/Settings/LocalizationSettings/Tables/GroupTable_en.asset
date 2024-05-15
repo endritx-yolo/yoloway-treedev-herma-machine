@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GroupTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: fd3271f1da2303c4faf121b3f73532a4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 46569762816
+    m_Localized: Group 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200425222144
+    m_Localized: Group 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307249950720
+    m_Localized: Group 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420164808704
+    m_Localized: Group 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 944679301120
+    m_Localized: Group 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010353713152
+    m_Localized: Group 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1109783883776
+    m_Localized: Group 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1191769944064
+    m_Localized: Group 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1288045998080
+    m_Localized: Group 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1370728312832
+    m_Localized: Group 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3159896764416
+    m_Localized: Sub Group 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3380785590272
+    m_Localized: Sub Group 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3416315539456
+    m_Localized: Sub Group 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3436821491712
+    m_Localized: Sub Group 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3460808716288
+    m_Localized: Sub Group 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3478626119680
+    m_Localized: Sub Group 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3497953472512
+    m_Localized: Sub Group 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3520237809664
+    m_Localized: Sub Group 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3542513758208
+    m_Localized: Sub Group 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3572242984960
+    m_Localized: Sub Group 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4028033806336
+    m_Localized: Part 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4066910810112
+    m_Localized: Part 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4073688805376
+    m_Localized: Part 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4133151453184
+    m_Localized: Part 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4159659454464
+    m_Localized: Part 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4176503779328
+    m_Localized: Part 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4193587179520
+    m_Localized: Part 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4211178090496
+    m_Localized: Part 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4232606789632
+    m_Localized: Part 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4251971891200
+    m_Localized: Part 10
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Level/_Scenes/HighQuality/HighQualityWithPPBlackv2.unity
+    path: Assets/_Level/_Scenes/HighQuality/HighQualityWithPPBlackv2Old.unity
     guid: 3c0ebef21a4ecdd46ac7f5622e4051fd
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: f39ede0176d46ee4e895e1ee30f23ac0, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 551a83095ef396a42a166bf0ba5d1ad3, type: 2}
